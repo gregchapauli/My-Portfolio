@@ -22,7 +22,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/G${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/" scroll={false}>
@@ -35,7 +35,8 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Takuya Matsuyama
+            {' '}
+            Grégory C.
           </Text>
         </LogoBox>
       </a>
