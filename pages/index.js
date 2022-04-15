@@ -205,8 +205,5 @@ const Home = () => (
 
 export default Home
 
-// //FOR SSR SITE
-// export { getServerSideProps } from '../components/chakra'
-
-//FOR SSG SITE
-export { getStaticProps } from '../components/chakra'
+//FOR SSR SITE
+export { getServerSideProps } from '../components/chakra'
