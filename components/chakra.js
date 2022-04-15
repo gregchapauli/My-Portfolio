@@ -18,11 +18,18 @@ export default function Chakra({ cookies, children }) {
   )
 }
 
-// FOR SSR SITE
-export async function getServerSideProps({ req }) {
+// // FOR SSR SITE
+// export async function getServerSideProps({ req }) {
+//   return {
+//     props: {
+//       cookies: req.headers.cookie ?? ''
+//     }
+//   }
+// }
+
+// FOR SSG SITE
+export async function getStaticProps() {
   return {
-    props: {
-      cookies: req.headers.cookie ?? ''
-    }
+    props: {}
   }
 }
