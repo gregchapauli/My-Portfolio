@@ -25,6 +25,7 @@ const Works = () => (
             id="marvelquizz"
             title="marvelquizz"
             thumbnail={thumbMarvelquizz}
+            href="https://marvel-quizz-10c02.web.app/"
           >
             Quizz for Marvel addict!
           </WorkGridItem>
