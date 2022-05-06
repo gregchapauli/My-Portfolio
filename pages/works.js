@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
+import thumbMarvelquizz from '../public/images/works/MarvelQuizzLanding.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
@@ -29,11 +29,11 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="marvelquizz"
+            title="marvelquizz"
+            thumbnail={thumbMarvelquizz}
           >
-            Music recommendation app for iOS
+            Quizz for Marvel addict!
           </WorkGridItem>
         </Section>
 

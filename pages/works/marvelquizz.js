@@ -1,21 +1,10 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center
-} from '@chakra-ui/react'
+import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="marvelquizz">
     <Container>
       <Title>
         Marvel-Quizz <Badge>2022</Badge>
@@ -36,13 +25,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
       <WorkImage src="/images/works/MarvelQuizzLanding.png" alt="MarvelQuizz" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
     </Container>
   </Layout>
 )
