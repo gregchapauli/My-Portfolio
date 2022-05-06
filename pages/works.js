@@ -96,12 +96,6 @@ const Works = () => (
             Automatic audio file tagging tool using FreeDB for Windows
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section>
       </SimpleGrid>
     </Container>
   </Layout>
