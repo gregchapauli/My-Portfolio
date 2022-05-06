@@ -25,11 +25,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage
-        href="https://marvel-quizz-10c02.web.app/"
-        src="/images/works/MarvelQuizzLanding.png"
-        alt="MarvelQuizz"
-      />
+      <WorkImage src="/images/works/MarvelQuizzLanding.png" alt="MarvelQuizz" />
     </Container>
   </Layout>
 )
