@@ -17,7 +17,13 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web</span>
+          <span>Web/Mobile</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/gregchapauli/marvel-quizz">
+            <span>Marvel-Quizz</span>
+          </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
