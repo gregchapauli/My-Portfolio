@@ -1,4 +1,4 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, Link, Box } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -25,7 +25,12 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/MarvelQuizzLanding.png" alt="MarvelQuizz" />
+      <Link href="https://marvel-quizz-10c02.web.app/">
+        <WorkImage
+          src="/images/works/MarvelQuizzLanding.png"
+          alt="MarvelQuizz"
+        />
+      </Link>
     </Container>
   </Layout>
 )
