@@ -4,8 +4,6 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbMarvelquizz from '../public/images/works/MarvelQuizzLanding.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -25,29 +23,22 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id=""
+            title=""
+            thumbnail={}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            New work
           </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
       {/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Section for Other Work
+          Section for Other kind of Work
         </Heading>
       </Section> */}
     </Container>
