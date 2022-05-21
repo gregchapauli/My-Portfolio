@@ -30,7 +30,9 @@ const Works = () => (
             title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
           >
-            The famous game "hot or cold", Find the right number if you can!
+            The famous game "hot or cold",
+            <br />
+            Find the right number if you can!
           </WorkGridItem>
         </Section>
       </SimpleGrid>

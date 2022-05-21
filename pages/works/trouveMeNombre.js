@@ -1,0 +1,46 @@
+import { Container, Badge, List, ListItem, Link, Box } from '@chakra-ui/react'
+import Layout from '../../components/layouts/article'
+import { Title, WorkImage, Meta } from '../../components/work'
+import P from '../../components/paragraph'
+
+const Work = () => (
+  <Layout title="trouveLeNombre">
+    <Container>
+      <Title>
+        TrouveLeNombre <Badge>2021</Badge>
+      </Title>
+      <P>
+        TrouveLeNombre is a little funny pure javascript application. The better
+        way to learn JS basics. In this game, you haves 6 chance to find the
+        good number between 0 and 100. The color of the background change
+        according to wether you are close or far from it. Good Luck!
+      </P>
+      <List ml={4} my={4}>
+        <ListItem>
+          <Meta>Platform</Meta>
+          <span>Web/Mobile</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/gregchapauli/Jeu-Trouve-le-nombre">
+            <span>Trouve le nombre</span>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Meta>Stack</Meta>
+          <span>Html, css, vanilla JS</span>
+        </ListItem>
+      </List>
+
+      <Link href="https://marvel-quizz-10c02.web.app/">
+        <WorkImage
+          src="/images/works/MarvelQuizzLanding.png"
+          alt="MarvelQuizz"
+        />
+      </Link>
+    </Container>
+  </Layout>
+)
+
+export default Work
+export { getServerSideProps } from '../../components/chakra'
