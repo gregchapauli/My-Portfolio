@@ -17,7 +17,7 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="marvelquizz"
-            title="marvelquizz"
+            title="Marvelquizz"
             thumbnail={thumbMarvelquizz}
           >
             Quizz for Marvel addict!
@@ -27,7 +27,7 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="trouvelenombre"
-            title="trouvelenombre"
+            title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
           >
             The famous game "hot or cold", Find the right number if you can!
