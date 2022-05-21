@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbMarvelquizz from '../public/images/works/MarvelQuizzLanding.png'
+import thumbTrouveLeNombre from '../public/images/works/TrouveLeNombre.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,15 +24,15 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        {/* <Section delay={0.1}>
+        <Section delay={0.1}>
           <WorkGridItem
-            id=""
-            title=""
-            thumbnail={}
+            id="trouvelenombre"
+            title="trouvelenombre"
+            thumbnail={thumbTrouveLeNombre}
           >
-            New work
+            The famous game "hot or cold", Find the right number if you can!
           </WorkGridItem>
-        </Section> */}
+        </Section>
       </SimpleGrid>
 
       {/* <Section delay={0.2}>
