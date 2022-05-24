@@ -4,10 +4,10 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="trouveLeNombre">
+  <Layout title="trouveLenombre">
     <Container>
       <Title>
-        TrouveLeNombre <Badge>2021</Badge>
+        Trouve-le-nombre <Badge>2021</Badge>
       </Title>
       <P>
         TrouveLeNombre is a little funny pure javascript application. The better
