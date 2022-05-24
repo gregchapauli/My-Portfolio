@@ -28,14 +28,14 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Html, css, vanilla JS</span>
+          <span>HTML, CSS, vanilla JS</span>
         </ListItem>
       </List>
 
-      <Link href="https://marvel-quizz-10c02.web.app/">
+      <Link href="https://jeu-trouve-le-nombre.vercel.app/">
         <WorkImage
-          src="/images/works/MarvelQuizzLanding.png"
-          alt="MarvelQuizz"
+          src="/images/works/TrouveLeNombre.png"
+          alt="Trouve-le-nombre"
         />
       </Link>
     </Container>
