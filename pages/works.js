@@ -26,7 +26,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="trouvelenombre"
+            id="trouveLeNombre"
             title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
           >
