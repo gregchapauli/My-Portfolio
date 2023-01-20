@@ -5,6 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbMarvelquizz from '../public/images/works/MarvelQuizzLanding.png'
 import thumbTrouveLeNombre from '../public/images/works/TrouveLeNombre.png'
+import thumbChatGPTclone from '../public/images/works/ChatGPTclone.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -26,13 +27,25 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="trouveLeNombre"
+            id="trouvelenombre"
             title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
           >
             The famous game "hot or cold",
             <br />
             Find the right number if you can!
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="chatGPTclone"
+            title="chatGPTclone"
+            thumbnail={thumbChatGPTclone}
+          >
+            A react App with OpenAI API ,
+            <br />
+            Enjoy with the different tools!
           </WorkGridItem>
         </Section>
       </SimpleGrid>
