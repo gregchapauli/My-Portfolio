@@ -17,6 +17,18 @@ const Works = () => (
       <SimpleGrid columns={1} gap={6}>
         <Section>
           <WorkGridItem
+            id="chatGPTclone"
+            title="chatGPTclone"
+            thumbnail={thumbChatGPTclone}
+          >
+            A react App with OpenAI API ,
+            <br />
+            Enjoy with the different tools!
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
             id="marvelquizz"
             title="Marvelquizz"
             thumbnail={thumbMarvelquizz}
@@ -25,7 +37,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <WorkGridItem
             id="trouvelenombre"
             title="Trouvelenombre"
@@ -34,18 +46,6 @@ const Works = () => (
             The famous game "hot or cold",
             <br />
             Find the right number if you can!
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.2}>
-          <WorkGridItem
-            id="chatGPTclone"
-            title="chatGPTclone"
-            thumbnail={thumbChatGPTclone}
-          >
-            A react App with OpenAI API ,
-            <br />
-            Enjoy with the different tools!
           </WorkGridItem>
         </Section>
       </SimpleGrid>
