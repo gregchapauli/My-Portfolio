@@ -39,6 +39,18 @@ const Works = () => (
 
         <Section delay={0.2}>
           <WorkGridItem
+            id="AnimatedLandingPage"
+            title="AnimatedLandingPage"
+            thumbnail={thumbAnimatedLandingPage}
+          >
+            A beautifull landing page
+            <br />
+            With great and modern animations
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem
             id="trouvelenombre"
             title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
@@ -49,14 +61,6 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-
-      {/* <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Section for Other kind of Work
-        </Heading>
-      </Section> */}
     </Container>
   </Layout>
 )
