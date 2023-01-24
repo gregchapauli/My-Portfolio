@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbMarvelquizz from '../public/images/works/MarvelQuizzLanding.png'
 import thumbTrouveLeNombre from '../public/images/works/TrouveLeNombre.png'
 import thumbChatGPTclone from '../public/images/works/ChatGPTclone.png'
+import thumbAnimatedLandingPage from '../public/images/works/AnimatedLandingPage.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -39,8 +40,8 @@ const Works = () => (
 
         <Section delay={0.2}>
           <WorkGridItem
-            id="AnimatedLandingPage"
-            title="AnimatedLandingPage"
+            id="animatedlandingpage"
+            title="Animatedlandingpage"
             thumbnail={thumbAnimatedLandingPage}
           >
             A beautifull landing page
