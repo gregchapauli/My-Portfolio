@@ -21,7 +21,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/gregchapauli/chatGPT-clone">
+          <Link
+            href="https://github.com/gregchapauli/chatGPT-clone"
+            target="_blank"
+          >
             <span>chatGPT-clone</span>
           </Link>
         </ListItem>
@@ -31,7 +34,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Link href="https://chat-gpt-clone-psi.vercel.app/">
+      <Link href="https://chat-gpt-clone-psi.vercel.app/" target="_blank">
         <WorkImage src="/images/works/ChatGPTclone.png" alt="chatGPTclone" />
       </Link>
     </Container>

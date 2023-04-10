@@ -21,7 +21,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/gregchapauli/marvel-quizz">
+          <Link
+            href="https://github.com/gregchapauli/marvel-quizz"
+            target="_blank"
+          >
             <span>Marvel-Quizz</span>
           </Link>
         </ListItem>
@@ -31,7 +34,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Link href="https://marvel-quizz-10c02.web.app/">
+      <Link href="https://marvel-quizz-10c02.web.app/" target="_blank">
         <WorkImage
           src="/images/works/MarvelQuizzLanding.png"
           alt="MarvelQuizz"

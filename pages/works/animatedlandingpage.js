@@ -20,7 +20,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/gregchapauli/Animated-Landing-Page/">
+          <Link
+            href="https://github.com/gregchapauli/Animated-Landing-Page/"
+            target="_blank"
+          >
             <span>Animated Landing Page</span>
           </Link>
         </ListItem>
@@ -30,7 +33,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Link href="https://animated-landing-page-xi.vercel.app/">
+      <Link href="https://animated-landing-page-xi.vercel.app/" target="_blank">
         <WorkImage
           src="/images/works/AnimatedLandingPage.png"
           alt="AnimatedLandingPage"

@@ -22,7 +22,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Github</Meta>
-          <Link href="https://github.com/gregchapauli/Jeu-Trouve-le-nombre">
+          <Link
+            href="https://github.com/gregchapauli/Jeu-Trouve-le-nombre"
+            target="_blank"
+          >
             <span>Trouve le nombre</span>
           </Link>
         </ListItem>
@@ -32,10 +35,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Link href="https://jeu-trouve-le-nombre.vercel.app/">
+      <Link href="https://jeu-trouve-le-nombre.vercel.app/" target="_blank">
         <WorkImage
           src="/images/works/TrouveLeNombre.png"
-          alt="Trouvelenombre"
+          alt="TrouveLeNombre"
         />
       </Link>
     </Container>
