@@ -53,7 +53,7 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem
             id="trouvelenombre"
-            title="TrouveLeNombre"
+            title="Trouvelenombre"
             thumbnail={thumbTrouveLeNombre}
           >
             The famous game "hot or cold",
