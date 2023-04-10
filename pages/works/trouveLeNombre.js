@@ -7,7 +7,7 @@ const Work = () => (
   <Layout title="trouvelenombre">
     <Container>
       <Title>
-        Trouve-le-nombre <Badge>2021</Badge>
+        Trouve le nombre <Badge>2021</Badge>
       </Title>
       <P>
         TrouveLeNombre is a little funny pure javascript application. The better
