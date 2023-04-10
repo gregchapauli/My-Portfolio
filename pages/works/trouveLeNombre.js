@@ -35,7 +35,7 @@ const Work = () => (
       <Link href="https://jeu-trouve-le-nombre.vercel.app/">
         <WorkImage
           src="/images/works/TrouveLeNombre.png"
-          alt="Trouve-le-nombre"
+          alt="Trouvelenombre"
         />
       </Link>
     </Container>
